@@ -28,12 +28,16 @@ export default class App extends Component {
           height={height}
           meetOrSlice="slice"
           svgRoot={({ transform }) => (
-            <Svg
-              width={width}
-              height={height}
-            >
+            <Svg width={width} height={height}>
               <G transform={transform}>
-                <Rect x="0" y="0" width="65" height="65" fill="white" />
+                <Rect
+                  x="0"
+                  y="0"
+                  width="65"
+                  height="65"
+                  fill="white"
+                  transform="rotate(45, 32.5, 32.5)"
+                />
                 <Circle
                   cx="32"
                   cy="32"
