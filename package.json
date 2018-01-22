@@ -10,7 +10,7 @@
     "react": "16.2.0",
     "react-native": "0.52.0",
     "react-native-svg": "^6.0.1-rc.3",
-    "zoomable-svg": "^1.0.1"
+    "zoomable-svg": "^2.0.2"
   },
   "devDependencies": {
     "babel-jest": "22.1.0",

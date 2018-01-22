@@ -4695,6 +4695,6 @@ yargs@~3.10.0:
     decamelize "^1.0.0"
     window-size "0.1.0"
 
-zoomable-svg@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/zoomable-svg/-/zoomable-svg-1.0.1.tgz#75494d65a80f78f50797d4911185f94b7f312a9a"
+zoomable-svg@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/zoomable-svg/-/zoomable-svg-2.0.2.tgz#bb3795c389f303d3ebe96af46b7671c80abccf8e"

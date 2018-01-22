@@ -22,15 +22,15 @@ export default class App extends Component {
       <View style={styles.container}>
         <ZoomableSvg
           align="mid"
+          vbWidth={65}
+          vbHeight={65}
           width={width}
           height={height}
-          viewBoxSize={65}
+          meetOrSlice="slice"
           svgRoot={({ transform }) => (
             <Svg
               width={width}
               height={height}
-              viewBox="0 0 65 65"
-              preserveAspectRatio="xMinYMin meet"
             >
               <G transform={transform}>
                 <Rect x="0" y="0" width="65" height="65" fill="white" />
