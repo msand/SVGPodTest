@@ -54,7 +54,7 @@ PODS:
     - React/RCTBlob
   - React/tvOS (0.52.2):
     - React/Core
-  - RNSVG (6.1.1):
+  - RNSVG (6.1.3):
     - React
   - yoga (0.52.2.React)
 
@@ -92,7 +92,7 @@ SPEC CHECKSUMS:
   Folly: b7255b29f1d693c375d642d0f04f0592181156d9
   GLog: 3e4e4ae9746ce6bf6e9420c7fc1e08ad59c8ba1a
   React: 001655c2b9dfc2f55e8271c60098d4f4227fb1b3
-  RNSVG: bb5f8d50942430b284ca4489440ac78bf205229c
+  RNSVG: f8f97aba6577cad4ef8009039affabf7899d7e40
   yoga: 18f5bf8fba4b4a31ca4b42ac931fce5537e1923c
 
 PODFILE CHECKSUM: de25e86e8e3a1272d01949241301036f3d5238f8
