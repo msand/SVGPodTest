@@ -3553,17 +3553,17 @@ react-devtools-core@3.0.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native-svg@^6.0.1-rc.3:
-  version "6.0.1-rc.3"
-  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-6.0.1-rc.3.tgz#9a54b6f70d350ee5f0169b3023ec6221254177fd"
+react-native-svg@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-6.1.1.tgz#70834dce78959c8113d72cd4e6d42de871b9aa60"
   dependencies:
     color "^2.0.1"
     lodash "^4.16.6"
     pegjs "^0.10.0"
 
-react-native@0.52.0:
-  version "0.52.0"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.52.0.tgz#9784663a2aa40b30c87d4c9c06ef26cf8d419d91"
+react-native@0.52.2:
+  version "0.52.2"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.52.2.tgz#1ae9a4c4441bd6e54a8ffc8aae4ac2b5c7cccd68"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
@@ -4695,6 +4695,6 @@ yargs@~3.10.0:
     decamelize "^1.0.0"
     window-size "0.1.0"
 
-zoomable-svg@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/zoomable-svg/-/zoomable-svg-2.0.2.tgz#bb3795c389f303d3ebe96af46b7671c80abccf8e"
+zoomable-svg@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/zoomable-svg/-/zoomable-svg-3.0.1.tgz#43a3a7fea4e801fcc8471701808e9a96fa67cee3"

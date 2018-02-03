@@ -20,43 +20,43 @@ PODS:
     - DoubleConversion
     - GLog
   - GLog (0.3.4)
-  - React (0.52.0):
-    - React/Core (= 0.52.0)
-  - React/Core (0.52.0):
-    - yoga (= 0.52.0.React)
-  - React/CxxBridge (0.52.0):
+  - React (0.52.2):
+    - React/Core (= 0.52.2)
+  - React/Core (0.52.2):
+    - yoga (= 0.52.2.React)
+  - React/CxxBridge (0.52.2):
     - Folly (= 2016.09.26.00)
     - React/Core
     - React/cxxreact
-  - React/cxxreact (0.52.0):
+  - React/cxxreact (0.52.2):
     - boost
     - Folly (= 2016.09.26.00)
     - React/jschelpers
     - React/jsinspector
-  - React/DevSupport (0.52.0):
+  - React/DevSupport (0.52.2):
     - React/Core
     - React/RCTWebSocket
-  - React/fishhook (0.52.0)
-  - React/jschelpers (0.52.0):
+  - React/fishhook (0.52.2)
+  - React/jschelpers (0.52.2):
     - Folly (= 2016.09.26.00)
     - React/PrivateDatabase
-  - React/jsinspector (0.52.0)
-  - React/PrivateDatabase (0.52.0)
-  - React/RCTBlob (0.52.0):
+  - React/jsinspector (0.52.2)
+  - React/PrivateDatabase (0.52.2)
+  - React/RCTBlob (0.52.2):
     - React/Core
-  - React/RCTNetwork (0.52.0):
+  - React/RCTNetwork (0.52.2):
     - React/Core
-  - React/RCTText (0.52.0):
+  - React/RCTText (0.52.2):
     - React/Core
-  - React/RCTWebSocket (0.52.0):
+  - React/RCTWebSocket (0.52.2):
     - React/Core
     - React/fishhook
     - React/RCTBlob
-  - React/tvOS (0.52.0):
+  - React/tvOS (0.52.2):
     - React/Core
-  - RNSVG (6.0.1-rc.2):
+  - RNSVG (6.1.1):
     - React
-  - yoga (0.52.0.React)
+  - yoga (0.52.2.React)
 
 DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
@@ -91,9 +91,9 @@ SPEC CHECKSUMS:
   DoubleConversion: ebb6747c5b66026ad4f97b789c3ceac6f18e57a6
   Folly: b7255b29f1d693c375d642d0f04f0592181156d9
   GLog: 3e4e4ae9746ce6bf6e9420c7fc1e08ad59c8ba1a
-  React: 61a6bdf17a9ff16875c230e6ff278d9de274e16c
-  RNSVG: 8e52229754a1ea57ee9339ec710bdacb8daaf63b
-  yoga: 646606bf554d54a16711f35596178522fbc00480
+  React: 001655c2b9dfc2f55e8271c60098d4f4227fb1b3
+  RNSVG: bb5f8d50942430b284ca4489440ac78bf205229c
+  yoga: 18f5bf8fba4b4a31ca4b42ac931fce5537e1923c
 
 PODFILE CHECKSUM: de25e86e8e3a1272d01949241301036f3d5238f8
 
