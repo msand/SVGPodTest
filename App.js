@@ -6,7 +6,7 @@
 
 import React, { Component } from 'react';
 import { StyleSheet, View, Dimensions, Animated } from 'react-native';
-import { Svg, G, Circle, Path, Rect } from 'react-native-svg';
+import { Svg, G, Circle, Path, Rect, Text, TSpan } from 'react-native-svg';
 
 import ZoomableSvg from 'zoomable-svg';
 
@@ -85,6 +85,18 @@ class SvgRoot extends Component {
     );
   }
 }
+
+const Test = () => (
+  <Svg height={height} width={width} viewBox="0 0 104 57.8">
+    <Path
+      d="M0,57.8h85c19.1,0,19.5-13.9,19.1-17.9L97.8,0H0.1L0,57.8z"
+      fill="rgb(242, 103, 36)"
+    />
+    <Text x="52" y="28.9" dy="0.33em" fontSize="32" textAnchor="middle">
+      <TSpan>Text</TSpan>
+    </Text>
+  </Svg>
+);
 
 const constraintCombinations = [
   'none',
