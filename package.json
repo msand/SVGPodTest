@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "release": "cd ios && xcodebuild -workspace SVGPodTest.xcworkspace -configuration Release -scheme SVGPodTest -destination id=711F49EC-5747-4393-94DB-77B97D466541 -derivedDataPath build",
+    "archive": "cd ios && xcodebuild -workspace SVGPodTest.xcworkspace -configuration Release -scheme SVGPodTest -derivedDataPath build  -archivePath ./YourApp.xcarchive archive"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
