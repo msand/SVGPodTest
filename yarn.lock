@@ -3585,9 +3585,9 @@ react-devtools-core@3.0.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native-svg@msand/react-native-svg#f3ea54c:
-  version "6.2.2"
-  resolved "https://codeload.github.com/msand/react-native-svg/tar.gz/f3ea54cd26676013254ce133dd355f2ff1a3d57d"
+react-native-svg@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-6.3.0.tgz#dcdba72df31b292412dce4afae2d3a9f0f0c0786"
   dependencies:
     color "^2.0.1"
     lodash "^4.16.6"

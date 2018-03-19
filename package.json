@@ -5,15 +5,15 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "release": "cd ios && xcodebuild -workspace SVGPodTest.xcworkspace -configuration Release -scheme SVGPodTest -destination id=711F49EC-5747-4393-94DB-77B97D466541 -derivedDataPath build",
-    "archive": "cd ios && xcodebuild -workspace SVGPodTest.xcworkspace -configuration Release -scheme SVGPodTest -derivedDataPath build  -archivePath ./YourApp.xcarchive archive"
+    "release": "cd ios && xcodebuild -workspace SVGPodTest.xcworkspace -configuration Release -scheme SVGPodTest -sdk iphonesimulator -derivedDataPath build",
+    "archive": "cd ios && xcodebuild -workspace SVGPodTest.xcworkspace -configuration Release -scheme SVGPodTest -derivedDataPath build"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
     "prop-types": "^15.6.0",
     "react": "16.2.0",
     "react-native": "0.53.3",
-    "react-native-svg": "msand/react-native-svg#f3ea54c",
+    "react-native-svg": "^6.3.0",
     "zoomable-svg": "^3.0.1"
   },
   "devDependencies": {
